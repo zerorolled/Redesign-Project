@@ -1,4 +1,27 @@
-body {
-background-color: 
+/*font-family: 'Alfa Slab One', cursive;
+font-family: 'Suez One', serif;
+font-family: 'Libre Baskerville', serif;*/
 
+body {
+background-color: #eae2b7; /*Beige*/
+
+}
+header{
+  background-color: #d62828; /*Red*/
+}
+h1{
+  font-family: 'Alfa Slab One', cursive;
+  color: #eae2b7; /*Beige*/
+}
+h2{
+  font-family: 'Suez One', serif;
+  color: #3c6840; /*Dark Green*/
+}
+h3{
+  font-family: 'Suez One', serif;
+  color: #3c6840; /*Dark Green*/
+}
+p{
+  font-family: 'Libre Baskerville', serif;
+  color: #003049; /*Dark Blue*/
 }
