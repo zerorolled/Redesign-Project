@@ -6,22 +6,25 @@ body {
 background-color: #eae2b7; /*Beige*/
 
 }
-header{
-  background-color: #d62828; /*Red*/
+header {
+  /* background-color: #d62828; /*Red*/
+  /* I changed this to be a gradient of the color for better aesthetics */
+  background: rgb(214,40,40);
+  background: linear-gradient(90deg, rgba(214,40,40,1) 0%, rgba(222,73,73,1) 50%, rgba(214,40,40,1) 100%);
 }
-h1{
+h1 {
   font-family: 'Alfa Slab One', cursive;
   color: #eae2b7; /*Beige*/
 }
-h2{
+h2 {
   font-family: 'Suez One', serif;
   color: #3c6840; /*Dark Green*/
 }
-h3{
+h3 {
   font-family: 'Suez One', serif;
   color: #3c6840; /*Dark Green*/
 }
-p{
+p {
   font-family: 'Libre Baskerville', serif;
   color: #003049; /*Dark Blue*/
 }
