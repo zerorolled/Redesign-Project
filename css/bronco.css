@@ -28,3 +28,26 @@ p {
   font-family: 'Libre Baskerville', serif;
   color: #003049; /*Dark Blue*/
 }
+ul li a {
+  font-family: 'Suez One', serif;
+  background-color: #3c6840; /*Dark Green*/
+   border-radius: .8em; /*round the corners on the nav items*/
+   text-decoration: none; /*remove default underlines from links*/
+   padding: .4em .6em;
+   margin: 0em;
+
+   font-size: 1.2em;
+   color: #eae2b7; /*Beige*/
+}
+ul {
+margin-top: 1em;
+margin-bottom: .5em;
+}
+li {
+  display: inline-block;
+       display:inline;
+       margin-right: .8em;
+}
+.cen {
+  text-align: center;
+}
