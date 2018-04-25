@@ -31,6 +31,7 @@ h4 {
 p {
   font-family: 'Libre Baskerville', serif;
   color: #003049; /*Dark Blue*/
+  line-height: 1.7em;
 }
 ul li a {
   font-family: 'Suez One', serif;
@@ -44,8 +45,10 @@ ul li a {
    color: #eae2b7; /*Beige*/
 }
 ul {
+  background-color: none;
 margin-top: 1.4em;
 margin-bottom: .5em;
+margin-left: 0em;
 }
 li {
   display: inline-block;
