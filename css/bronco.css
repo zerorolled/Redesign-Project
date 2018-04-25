@@ -47,11 +47,12 @@ ul li a {
 ul li {
   font-family: 'Suez One', serif;
   background-color: #3c6840; /*Dark Green*/
-   border-radius: .8em; /*round the corners on the nav items*/
-   padding: .4em .6em;
-   margin: 0em;
+    border-radius: .8em; /*round the corners on the nav items*/ 
+    padding: .4em .6em;
+    margin: 0em;
+    text-align: center;
 
-   font-size: 1.2em;
+   font-size: 2em;
    color: #eae2b7; /*Beige*/
 }
 /*For the contact page*/
