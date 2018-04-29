@@ -11,6 +11,6 @@ div.top-bar {
 
   background: rgb(214,40,40);
   background: linear-gradient(90deg, rgba(214,40,40,1) 0%, rgba(222,73,73,1) 50%, rgba(214,40,40,1) 100%);
-
+  margin-bottom: 0em;
 
 }

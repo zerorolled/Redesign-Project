@@ -11,6 +11,7 @@ header {
   /* I changed this to be a gradient of the color for better aesthetics */
   background: rgb(214,40,40);
   background: linear-gradient(90deg, rgba(214,40,40,1) 0%, rgba(222,73,73,1) 50%, rgba(214,40,40,1) 100%);
+  padding-bottom: 1.2em;
 }
 h1 {
   font-family: 'Alfa Slab One', cursive;
@@ -59,7 +60,7 @@ ul li {
 /*For the contact page*/
 ul {
   background-color: none;
-margin-top: 1.4em;
+margin-top: 1em;
 margin-bottom: .5em;
 margin-left: 0em;
 }
@@ -78,6 +79,11 @@ li {
 
 .beNormalMyDearStickyNavButtons {
 padding: 0em;
-font-size: 1.2em;
+font-size: 1em;
+
+}
+
+.width {
+  width: 100%;
 
 }
