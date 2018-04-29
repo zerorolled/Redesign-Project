@@ -12,6 +12,7 @@ header {
   background: rgb(214,40,40);
   background: linear-gradient(90deg, rgba(214,40,40,1) 0%, rgba(222,73,73,1) 50%, rgba(214,40,40,1) 100%);
   padding-bottom: 1.2em;
+
 }
 h1 {
   font-family: 'Alfa Slab One', cursive;
@@ -69,6 +70,9 @@ li {
        display:inline;
        margin-right: .8em;
 }
+
+
+
 .cen {
   text-align: center;
 }
