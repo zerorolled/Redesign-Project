@@ -1276,7 +1276,7 @@ textarea {
   margin-left: calc(33.33333% + 0.625rem); }
 
 .small-offset-5 {
-  margin-left: 41.66667%; }
+    margin-left: 38.8%; }
 
 .grid-margin-x > .small-offset-5 {
   margin-left: calc(41.66667% + 0.625rem); }
@@ -1339,7 +1339,7 @@ textarea {
   .grid-margin-x > .medium-offset-4 {
     margin-left: calc(33.33333% + 0.9375rem); }
   .medium-offset-5 {
-    margin-left: 41.66667%; }
+      margin-left: 42.4%; }
   .grid-margin-x > .medium-offset-5 {
     margin-left: calc(41.66667% + 0.9375rem); }
   .medium-offset-6 {
@@ -1389,11 +1389,11 @@ textarea {
   .grid-margin-x > .large-offset-4 {
     margin-left: calc(33.33333% + 0.9375rem); }
   .large-offset-5 {
-    margin-left: 41.66667%; }
+        margin-left: 42.7%; }
   .grid-margin-x > .large-offset-5 {
     margin-left: calc(41.66667% + 0.9375rem); }
   .large-offset-6 {
-    margin-left: 50%; }
+  margin-left: 45.66667%; }
   .grid-margin-x > .large-offset-6 {
     margin-left: calc(50% + 0.9375rem); }
   .large-offset-7 {
