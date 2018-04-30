@@ -33,13 +33,16 @@ h4 {
 p {
   font-family: 'Libre Baskerville', serif;
   color: #003049; /*Dark Blue*/
-  line-height: 1.8em;]
-  font-size: 1.2em;
+  line-height: 1.8em;
 }
 
-a :hover {
-  color:
+ul li a:hover{
+  color: rgb(255, 255, 255);
 }
+
+/* a :hover {
+  color: none;
+} */
 
 ul li a {
   font-family: 'Suez One', serif;
@@ -79,10 +82,6 @@ li {
        margin-right: .8em;
 }
 
-.go-up {
-  margin-top: 3em;
-}
-
 .current {
   background-color: #003049; /*Dark Blue*/
 
@@ -94,12 +93,6 @@ li {
 .date-up{
   margin-top: 1em;
   margin-bottom: 0em;
-}
-
-.itswaytootall {
-    height: 3em;
-    margin-bottom: 8.5em;
-    max-width: 35em;
 }
 
 .beNormalMyDearStickyNavButtons {
@@ -192,7 +185,7 @@ font-size: 1em;
   color: rgba(70, 70, 70, 0.8);
   margin: 0 auto;
   top: 50%;
-  padding: 7px;
+  padding: 10px;
   border-radius: 3px;
   -webkit-box-shadow: 0 8px 16px -8px #adadad;
   -moz-box-shadow: 0 8px 16px -8px #adadad;
