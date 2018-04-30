@@ -42,6 +42,7 @@ p {
   font-family: 'Libre Baskerville', serif;
   color: #003049; /*Dark Blue*/
   line-height: 1.8em;
+  font-size: 1.2em;
 }
 
 ul li a:hover{
@@ -193,7 +194,7 @@ font-size: 1em;
   color: rgba(70, 70, 70, 0.8);
   margin: 0 auto;
   top: 50%;
-  padding: 10px;
+  padding: 7px;
   border-radius: 3px;
   -webkit-box-shadow: 0 8px 16px -8px #adadad;
   -moz-box-shadow: 0 8px 16px -8px #adadad;
@@ -336,4 +337,12 @@ font-size: 1em;
 }
 .makeitbig{
   font-size: 1.2em;
+}
+.itswaytootall {
+    height: 3em;
+    margin-bottom: 8.5em;
+    max-width: 35em;
+}
+.go-up {
+  margin-top: 3em;
 }
