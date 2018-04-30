@@ -23,13 +23,13 @@ var checkTime = function() {
     minutes = "0" + minutes
   };
 
-  if ((dayOfWeek == 0 || dayOfWeek == 1 || dayOfWeek == 2 || dayOfWeek == 3 || dayOfWeek == 4) && hour >= 11 && hour <= 22) {
+  if ((dayOfWeek == 0 || dayOfWeek == 1 || dayOfWeek == 2 || dayOfWeek == 3 || dayOfWeek == 4) && hour >= 11 && hour <= 21) {
     hour = ((hour + 11) % 12 + 1); //i.e. show 1:15 instead of 13:15
     timeDiv.innerHTML = 'it\'s ' + today + ' ' + hour + ':' + minutes + suffix + ' - Hayward location is open!';
     timeDiv.className = 'open';
   }
 
-  else if ((dayOfWeek == 5 || dayOfWeek == 6) && hour >= 11 && hour <= 23) {
+  else if ((dayOfWeek == 5 || dayOfWeek == 6) && hour >= 11 && hour <= 22) {
     hour = ((hour + 11) % 12 + 1);
     timeDiv.innerHTML = 'it\'s ' + today + ' ' + hour + ':' + minutes + suffix + ' - Hayward location is open!';
     timeDiv.className = 'open';

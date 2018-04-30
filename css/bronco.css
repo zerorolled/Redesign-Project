@@ -33,8 +33,7 @@ h4 {
 p {
   font-family: 'Libre Baskerville', serif;
   color: #003049; /*Dark Blue*/
-  line-height: 1.8em;]
-  font-size: 1.2em;
+  line-height: 1.8em;
 }
 
 a :hover {
@@ -79,10 +78,6 @@ li {
        margin-right: .8em;
 }
 
-.go-up {
-  margin-top: 3em;
-}
-
 .current {
   background-color: #003049; /*Dark Blue*/
 
@@ -94,12 +89,6 @@ li {
 .date-up{
   margin-top: 1em;
   margin-bottom: 0em;
-}
-
-.itswaytootall {
-    height: 3em;
-    margin-bottom: 8.5em;
-    max-width: 35em;
 }
 
 .beNormalMyDearStickyNavButtons {
