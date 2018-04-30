@@ -330,3 +330,10 @@ font-size: 1em;
   right: 0;
   cursor: pointer
 }
+.locationbox{
+  background: white;
+  text-align: center;
+}
+.makeitbig{
+  font-size: 1.2em;
+}
