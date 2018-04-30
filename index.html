@@ -2,9 +2,9 @@
 <html class="no-js" lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Pizza Palace Bronco Billy's Parlor Jonathan Danielle Madison">
+    <meta name="keywords" content="Pizza Palace Bronco Billy's Palace redesign Jonathan Danielle Madison">
     <meta name="description" content="Group Redesign web project">
-    <meta name="author" content="Jonathan Sjelin">
+    <meta name="author" content="Jonathan Sjelin (store hours js by Danielle Lowe)">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage - Bronco Billy's Pizza Palace</title>
@@ -67,12 +67,69 @@
 
       <div class="grid-x grid-margin-x grid-padding-x grid-margin-y">
         <div class="cell small-10 small-offset-1">
-          <h4 class="cen date-up" id="greeting">
+          <h4 class="cen date-up" id="greeting"></h4>
+          <!-- <h4 class="cen" id="today"> </h4> -->
 
-          </h4><h4 class="cen" id="today"> </h4>
 
         </div>
       </div>
+
+      <!-- CURRENT STORE HOURS (HAYWARD)-->
+      <div class="grid-x">
+          <div class="cell small-11 small-offset-7 medium-cell medium-offset-2 itswaytootall">
+            <!-- <div id="main">
+              <div id="darkBack"></div>
+              <div id="logo"><img src="http://401creative.com/wp-content/uploads/2013/07/Griddle_Logo.png" /></div> -->
+
+              <div id="timeDiv"></div>
+              <label class="viewOpen" for="modal-state">View Hours&nbsp;&nbsp;<i class="fa fa-clock-o"></i></label>
+              <input type="checkbox" name="modal-state" id="modal-state">
+              <div class="modal-overlay">
+                <label for="modal-state" class="modal-overlay-close"></label>
+                <div class="modal">
+                  <label class="button-close" for="modal-state"><i class="fa fa-times"></i></label>
+                  <h2>We're Open At These Times</h2>
+                  <div id="Monday" class="dateTime">
+                    <div class="day">Monday</div>
+                    <div class="time">11AM - 10PM</div>
+                  </div>
+                  <br>
+                  <div id="Tuesday" class="dateTime">
+                    <div class="day">Tuesday</div>
+                    <div class="time">11AM - 10PM</div>
+                  </div>
+                  <br>
+                  <div id="Wednesday" class="dateTime">
+                    <div class="day">Wednesday</div>
+                    <div class="time">11AM - 10PM</div>
+                  </div>
+                  <br>
+                  <div id="Thursday" class="dateTime">
+                    <div class="day">Thursday</div>
+                    <div class="time">11AM - 10PM</div>
+                  </div>
+                  <br>
+                  <div id="Friday" class="dateTime">
+                    <div class="day">Friday</div>
+                    <div class="time">11AM - 11PM</div>
+                  </div>
+                  <br>
+                  <div id="Saturday" class="dateTime">
+                    <div class="day">Saturday</div>
+                    <div class="time">11AM - 11PM</div>
+                  </div>
+                  <br>
+                  <div id="Sunday" class="dateTime">
+                    <div class="day">Sunday</div>
+                    <div class="time">11AM - 10PM</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    </div>
+      <!--END OF CURRENT STORE HOURS (HAYWARD)-->
+
+
 
 
       <div class="grid-x grid-margin-x grid-padding-x grid-margin-y">
@@ -103,5 +160,6 @@
 
     <script src="js/greeting.js"></script>
     <script src="js/date.js"></script>
+    <script src="js/storehours.js"></script>
   </body>
 </html>

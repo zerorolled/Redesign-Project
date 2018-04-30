@@ -3,11 +3,11 @@ var hourNow = today.getHours();
 var greeting;
 
 if (hourNow > 18) {
-  greeting ='The evening is upon us! Today is';
+  greeting ='The evening is upon us! ';
 } else if (hourNow >12) {
-greeting = 'Hey, partner, its pizza time! Today is';
+greeting = 'Hey, partner, Nice time for a Pizza!';
 } else if (hourNow > 0) {
-  greeting = 'Good morning, my friend! Today is';
+  greeting = 'Good morning, my friend!';
 } else {
   greeting = 'Welcome';
 }

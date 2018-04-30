@@ -1288,7 +1288,7 @@ textarea {
   margin-left: calc(50% + 0.625rem); }
 
 .small-offset-7 {
-  margin-left: 58.33333%; }
+  margin-left: 10%; }
 
 .grid-margin-x > .small-offset-7 {
   margin-left: calc(58.33333% + 0.625rem); }
