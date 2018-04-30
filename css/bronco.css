@@ -35,6 +35,11 @@ p {
   color: #003049; /*Dark Blue*/
   line-height: 1.8em;
 }
+
+a :hover {
+  color: 
+}
+
 ul li a {
   font-family: 'Suez One', serif;
   background-color: #3c6840; /*Dark Green*/
@@ -73,7 +78,10 @@ li {
        margin-right: .8em;
 }
 
+.current {
+  background-color: #003049; /*Dark Blue*/
 
+}
 
 .cen {
   text-align: center;
