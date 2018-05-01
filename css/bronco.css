@@ -153,8 +153,10 @@ font-size: 1em;
 }
 
 #timeDiv {
-  font-size: 15px;
+  font-family: 'Suez One', serif;
+  font-size: 1.2em;
   text-transform: uppercase;
+   letter-spacing: .07em;
   position: relative;
   max-width: 325px;
   background: #fff;
@@ -182,16 +184,17 @@ font-size: 1em;
 }
 
 .viewOpen {
-  font-size: 15px;
+  font-family: 'Suez One', serif;
+  font-size: 1em;
   text-transform: uppercase;
   position: relative;
   display: inline-block;
   vertical-align: top;
-  border: 2px solid rgba(70, 70, 70, 0.7);
+  border: 2px solid #003049;
   max-width: 170px;
   background: #fff;
   width: 100%;
-  color: rgba(70, 70, 70, 0.8);
+  color: #003049; /*Dark Blue*/
   margin: 0 auto;
   top: 50%;
   padding: 7px;
@@ -224,6 +227,9 @@ font-size: 1em;
 }
 
 .day {
+  font-family: 'Suez One', serif;
+  color: #003049; /*Dark Blue*/
+     letter-spacing: .1em;
   display: inline-block;
   float: left;
 }
