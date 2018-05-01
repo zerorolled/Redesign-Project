@@ -5,7 +5,7 @@ var greeting;
 if (hourNow > 18) {
   greeting ='The evening is upon us! ';
 } else if (hourNow >12) {
-greeting = 'Hey, partner, Nice time for a Pizza!';
+greeting = 'Howdy, pardner, Nice time for a Pizza!';
 } else if (hourNow > 0) {
   greeting = 'Good morning, my friend!';
 } else {
