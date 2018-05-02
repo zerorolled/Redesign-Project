@@ -42,7 +42,11 @@ p {
 font-family: 'Suez One', serif;
   color: #003049; /*Dark Blue*/
   line-height: 1.8em;
-  font-size: 1.2em;
+  font-size: 1em;
+}
+a {
+font-size: .7em;
+
 }
 
 ul li a:hover{
@@ -101,6 +105,10 @@ li {
 }
 .date-up{
   margin-top: 1em;
+  margin-bottom: 0em;
+}
+.date-sup{
+  margin-top: 4em;
   margin-bottom: 0em;
 }
 
