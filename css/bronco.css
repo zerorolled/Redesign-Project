@@ -115,7 +115,10 @@ li {
 .beNormalMyDearStickyNavButtons {
 padding: 0em;
 font-size: 1em;
+}
 
+.iAmNotSticky {
+  padding: 1em;
 }
 
 .width {
